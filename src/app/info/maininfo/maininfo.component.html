@@ -1,0 +1,16 @@
+<p>maininfo works!</p>
+
+    <div class="row">
+        <div class="col-md-12">
+            <nav style="padding: 10px">
+                <a [routerLink]="['index']" class="btn btn-primary" routerLinkActive="router-link-active"> List </a>
+                &nbsp;&nbsp;&nbsp;
+                <a [routerLink]="['add']" class="btn btn-primary" routerLinkActive="router-link-active"> Add </a>
+            </nav>
+        
+        </div>
+        <div class="col-md-12" style="padding-top: 40px;padding-bottom: 40px;background-color: whitesmoke;border: 2px outset black">
+            <router-outlet></router-outlet>
+        </div>
+       
+    </div>
